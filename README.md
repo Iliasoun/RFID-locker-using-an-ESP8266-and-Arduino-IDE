@@ -8,6 +8,14 @@ Setup:
    - Connect the RFID module to the Wemos D1 Mini as per the provided "Wemos RFID Wiring Diagram".
    - Note that pin 4 on the Wemos D1 Mini corresponds to the D2 pin.
 
+2. Install Necessary Libraries:
+   - Before uploading the code, ensure you have installed the required libraries.
+   - You'll need the following libraries:
+     - "MFRC522" library for the RFID module.
+     - "SPI" library for SPI communication.
+     - "ESP8266" library for the ESP8266 development board.
+   - Install them via the Arduino IDE Library Manager.
+
 Usage:
 1. Scan RFID Cards:
    - Upload the "DumpInfoESP8266.ino" code to the Wemos D1 Mini.
